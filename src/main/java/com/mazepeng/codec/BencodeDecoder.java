@@ -33,7 +33,7 @@ public final class BencodeDecoder {
     /**
      * 解码Bencode数据的静态入口方法。
      * @param in 包含Bencode数据的输入流。
-     * @return 解码后的对象，类型为Long, byte[], List<Object>, 或 Map<String, Object>。
+     * @return 解码后的对象
      * @throws IOException 如果发生I/O错误或Bencode格式错误。
      */
     public static Object decode(InputStream in) throws IOException {
